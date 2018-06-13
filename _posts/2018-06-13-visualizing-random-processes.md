@@ -52,9 +52,7 @@ plot(s, type ="l")
 
 What does this actually look like, though? Let's look at plots for *p* = 0.4, 0.5, and 0.9.
 
-<figure><center>
-  <img width="300" src="https://github.com/AlyssaYelle/StochasticProcesses/blob/master/plots/randwalkp4.png"/>
-</center></figure>
+![p = 0.4]({{site.url}}{{site.baseurl}}/assets/stochastic/randwalkp4.png)
 
 ![p = 0.5]({{site.url}}{{site.baseurl}}/assets/stochastic/symrandwalk.png)
 
