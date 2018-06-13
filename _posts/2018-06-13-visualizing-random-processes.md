@@ -52,11 +52,11 @@ plot(s, type ="l")
 
 What does this actually look like, though? Let's look at plots for *p* = 0.4, 0.5, and 0.9.
 
-![alt text](https://github.com/AlyssaYelle/StochasticProcesses/blob/master/plots/randwalkp4.png "p = 0.4")
+![p = 0.4]('/assets/stochastic/randwalkp4.png')
 
-![alt text](https://github.com/AlyssaYelle/StochasticProcesses/blob/master/plots/symrandwalk.png "p = 0.5")
+![p = 0.5]('/assets/stochastic/symrandwalk.png')
 
-![alt text](https://github.com/AlyssaYelle/StochasticProcesses/blob/master/plots/randwalkp9.png "p = 0.9")
+![p = 0.9]('/assets/stochastic/randwalkp9.png')
 
 Now, it's important to remember that while these processes are beholden to some probability distribution, they are *random*. For any random walk with parameter *p* I could run the simulation 10 times and produce 10 different plots.
 
@@ -106,8 +106,8 @@ plot(Z, type = "l")
 
 I like to run this simulation using lambda = 2 because over multiple trials we can clearly see that if the population does not die off within the first few generations, it will explode. See the plots below.
 
-![alt text](https://github.com/AlyssaYelle/StochasticProcesses/blob/master/plots/branchpopdeath.png "Population death")
-![alt text](https://github.com/AlyssaYelle/StochasticProcesses/blob/master/plots/branchpopexplode.png "Population explodes")
+![Population death]('/assets/stochastic/branchpopdeath.png')
+![Population explodes]('assets/stochastic/branchpopexplode.png')
 
 
 ### Approximating the Probability of Extinction
@@ -131,7 +131,7 @@ We can represent these states as 0 and 1 and then construct a stochastic matrix 
 The plot below was [generated](https://github.com/AlyssaYelle/StochasticProcesses/blob/master/markov_chain.py) using the stochastic matrix
  <a href="https://www.codecogs.com/eqnedit.php?latex=P&space;=&space;\begin{bmatrix}&space;0.95&space;&&space;0.05&space;\\&space;0.01&space;&&space;0.99&space;\end{bmatrix}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?P&space;=&space;\begin{bmatrix}&space;0.95&space;&&space;0.05&space;\\&space;0.01&space;&&space;0.99&space;\end{bmatrix}" title="P = \begin{bmatrix} 0.95 & 0.05 \\ 0.01 & 0.99 \end{bmatrix}" /></a>
 
-![alt text](https://github.com/AlyssaYelle/StochasticProcesses/blob/master/plots/regime_switching.png "Regime Switching")
+![Regime switching]('/assets/stochastic/regime_switching.png')
 
 
 ## Ref
