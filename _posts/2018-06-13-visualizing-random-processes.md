@@ -4,7 +4,7 @@ title: "A Tutorial on Random Processes"
 date: 2018-06-13
 ---
 
-# Visualizing Random Processes
+## Introduction
 
 This is a quick tutorial for visualizing and developing a basic understanding of simple random walks, branching processes, and regime switching. As this is geared toward individuals who may not have taken a probability course yet, we're not going to get deep into the math here (Although if you are interested in the maths, [Gordan Zitkovic's Stochastic Processes notes](https://www.ma.utexas.edu/users/gordanz/notes/) can explain all of that better than I ever could). Rather, we're going to simulate these processes to see what is actually occuring over time.
 
