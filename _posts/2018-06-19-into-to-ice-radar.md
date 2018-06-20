@@ -18,7 +18,7 @@ The radargram above is from the interior of Antarctica, so we can make out air, 
 
 So how do we even get these images in the first place? Radar (plus other) equipment is mounted on an airplane (although there's recently been a push to mount the equipment on helicopters and drones) and then chirps, or transmits pulses, throughout the flight, listening for reflected energy. We can then convert the radar signal into an image, where each column of the image represents the returned signal (see the figure below, from [(1)](https://earthzine.org/2008/09/26/a-brief-history-of-radio-echo-sounding-of-ice/)). It's tempting at first to think of the axes of a radar image as spatial coordinates, which isn't necessarily *wrong*, but if we want to be precise, the x-axis represents the transmission time of each radar pulse and the y-axis represents the time delay of each record.
 
-![Radar signal]({{site.url}}{{site.baseurl}}/assets/ice_radar/radar_signal.png)
+![Radar signal]({{site.url}}{{site.baseurl}}/assets/ice_radar/radar_signal.png =500x)
 
 Anyway, back to the problem of auto-picking!  
 
