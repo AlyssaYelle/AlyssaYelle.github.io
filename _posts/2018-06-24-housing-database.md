@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Local Austinite Intuition vs. Real Data"
-date: 2018-06-24
+date: 2018-07-03
 ---
 
 Hey y'all! Today I want to talk a little bit about a project from my introductory database/SQL class. We spent the semester learning how to build/clean/query a database containing Airbnb and Zillow data from the city of Austin, and then at the end of the semester we were left to our own devices to visualize the data and find something interesting to present to the professor and TAs. I'm not going to dive into the details of the entire project but I do want to share an insight that I thought was pretty cool!
