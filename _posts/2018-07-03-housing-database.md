@@ -22,6 +22,8 @@ While the above plots provide evidence that I'm probably on to something with my
 
 I think at this point it is safe to say that SXSW and ACL do have some effect on the price of Airbnb listings in central Austin zipcodes, but I can't really say anything more specific than that based on such a quick and dirty analysis. If I ever move back to Austin, though, it might be worth diving a bit deeper into the data to see if it's worth renting out my house during festival season. :)
 
+If you're interested, the SQL I used to build/query my database can be found on my [github](https://github.com/AlyssaYelle/RentalsDatabase)
+
 
 
 
