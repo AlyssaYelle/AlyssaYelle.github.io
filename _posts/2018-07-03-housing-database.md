@@ -20,9 +20,18 @@ Once I had selected my zip codes of interest I went ahead and plotted my data! F
 
 While the above plots provide evidence that I'm probably on to something with my local intuition, they don't provide the whole story! I looked at the prices for every listing, whether it was rented out or not. If I looked more closely I might see that listings with particularly high price increases didn't actually get rented out. I also might have made some better insights if I'd grouped by neighborhood, rather than by zipcode. 
 
+The nice thing about Tableau is that you can connect directly to a database so you don't have to actually query it, but if you're comfortable with SQL then then an example query for getting the average price is:
+'''SQL
+SELECT date_trunc(date, MONTH) as date, zipcode, AVG(price) as average_price
+FROM `spooky-data-seance.austin.results_20180628_152848` 
+WHERE zipcode IN (78701, 78702, 78703, 78704, 78705, 78722, 78751, 78756)
+GROUP BY zipcode, date
+ORDER BY zipcode, date;
+'''
+
 I think at this point it is safe to say that SXSW and ACL do have some effect on the price of Airbnb listings in central Austin zipcodes, but I can't really say anything more specific than that based on such a quick and dirty analysis. If I ever move back to Austin, though, it might be worth diving a bit deeper into the data to see if it's worth renting out my house during festival season. :)
 
-If you're interested, the SQL I used to build/query my database can be found on my [github](https://github.com/AlyssaYelle/RentalsDatabase)
+
 
 
 
