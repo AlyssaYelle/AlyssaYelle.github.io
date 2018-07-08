@@ -20,7 +20,7 @@ Once I had selected my zip codes of interest I went ahead and plotted my data! F
 
 While the above plots provide evidence that I'm probably on to something with my local intuition, they don't provide the whole story! I looked at the prices for every listing, whether it was rented out or not. If I looked more closely I might see that listings with particularly high price increases didn't actually get rented out. I also might have made some better insights if I'd grouped by neighborhood, rather than by zipcode. 
 
-The nice thing about Tableau is that you can connect directly to a database so you don't have to actually query it, but if you're comfortable with SQL then then an example query for getting the average price is:
+Most of the SQL used for this project is on my [repo](https://github.com/AlyssaYelle/RentalsDatabase), but an example of a query used to pull the data used for this plots is:
 ```SQL
 SELECT date_trunc(date, MONTH) as date, zipcode, AVG(price) as average_price
 FROM `spooky-data-seance.austin.results_20180628_152848` 
