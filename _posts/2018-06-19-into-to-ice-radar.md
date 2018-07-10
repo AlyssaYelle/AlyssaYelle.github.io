@@ -4,7 +4,7 @@ title: "The Ice Radar Chronicles Part 1: Intro to Ice Radar"
 date: 2018-06-19
 ---
 
-The project that's most dear to my heart is the problem of auto-picking, or automating the process of interpreting ice-penetrating radar data. I spent years during my time in Austin working as a lab tech for a group of geophysicists who had an enormous amount of this radar data and needed someone to "pick" it. 
+The [project](https://github.com/AlyssaYelle/auto-piking#automatically-mapping-the-antarctic-ice-sheet) that's most dear to my heart is the problem of auto-picking, or automating the process of interpreting ice-penetrating radar data. I spent years during my time in Austin working as a lab tech for a group of geophysicists who had an enormous amount of this radar data and needed someone to "pick" it. 
 
 This human-powered picking is simple enough, really. You load up a radar image, draw the upper and lower boundaries of your feature of interest (the surface or bottom of the ice), and then run an algorithm that finds the strongest signal within those boundaries.
 
