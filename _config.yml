@@ -2,3 +2,4 @@ name: Alyssa Jones
 markdown: kramdown
 baseurl: '/blog'
 url: 'http://alyssayelle.github.io'
+future: true
