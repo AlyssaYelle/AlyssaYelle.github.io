@@ -11,6 +11,17 @@ body {
   color: white;
 }
 
+h1 {
+  font-size: 5rem;
+  text-shadow: maroon 0px 0px 1px;
+/*  padding-top: 5%;*/
+}
+
+h2 {
+  font-size: 3rem;
+  text-shadow: maroon 0px 0px 1px;
+}
+
 
 nav {
   position: fixed;
@@ -71,8 +82,8 @@ section {
 
 article {
   text-align: left;
-  margin-left: 5%;
-  margin-right: 10%;
+  padding-left: 5%;
+  padding-right: 10%;
   color: black;
   display: block;
 }
@@ -84,17 +95,6 @@ article h1 {
 article h2 {
   font-size: 1.5rem;
   text-shadow: none;
-}
-
-h1 {
-	font-size: 5rem;
-	text-shadow: maroon 0px 0px 1px;
-/*	padding-top: 5%;*/
-}
-
-h2 {
-	font-size: 3rem;
-	text-shadow: maroon 0px 0px 1px;
 }
 
 
