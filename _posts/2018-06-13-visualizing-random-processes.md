@@ -6,7 +6,7 @@ date: 2018-06-13
 
 ## Introduction
 
-This is a quick tutorial for visualizing and developing a basic understanding of simple random walks, branching processes, and regime switching. As this is geared toward individuals who may not have taken a probability course yet, we're not going to get deep into the math here (Although if you are interested in the maths, [Gordan Zitkovic's Stochastic Processes notes](https://www.ma.utexas.edu/users/gordanz/notes/) can explain all of that better than I ever could). Rather, we're going to simulate these processes to see what is actually occuring over time.
+This is a quick tutorial for visualizing and developing a basic understanding of simple random walks, branching processes, and regime switching. As this is geared toward individuals who may not have taken a probability course yet, we're not going to get deep into the math here (Although if you are interested in the maths, [Gordan Zitkovic's Stochastic Processes notes](https://www.ma.utexas.edu/users/gordanz/notes/) can explain all of that better than I ever could). Rather, we're going to simulate these processes to see what is actually occurring over time.
 
 Before we start, you might ask why we even care about random processes. Given that "because random processes are NEATO" isn't a satisfying answer for most people, let's consider some practical applications. We can use random walks to approximate price fluctuation in the stock market or to simulate the movement of molecules in liquids and gasses. Branching processes are useful for modeling reproduction, and the probability that a certain population will go extinct. I personally have made use of random processes as part of my ongoing attempts to [automatically map the Antarctic Ice Sheet.](https://github.com/AlyssaYelle/auto-piking)
 
@@ -36,7 +36,7 @@ s = 0
 s[1] = 0
 
 
-# generate N = 100 random values from a Uniform(0,1) distribution 
+# generate N = 100 random values from a Uniform(0,1) distribution
 # assign 1 if < p, -1 if >=p
 N = 100
 
@@ -94,9 +94,9 @@ Z[1] = rpois(Z[0], lambda)
 
 for (i in 2:N)
 {
-  if(Z[i-1]==0) {Z[i]=0} else 
+  if(Z[i-1]==0) {Z[i]=0} else
     {
-      x=rpois(Z[i-1], lambda) 
+      x=rpois(Z[i-1], lambda)
       Z[i] = sum(x)
     }
 }
@@ -114,7 +114,7 @@ I like to run this simulation using lambda = 2 because over multiple trials we c
 
 Since branching processes are random, running a single simulation is rather worthless if we're seeking some kind of concrete information. For example, one question we could ask is *what is the probability that population reproducing itself from a Poisson(2) distribution will become extinct?*
 
-If you've taken a class on stochastic processes then you know we can find this probability using generating functions, but what if you don't know what a generating function is? 
+If you've taken a class on stochastic processes then you know we can find this probability using generating functions, but what if you don't know what a generating function is?
 
 Well, if we can [simulate one branching process](https://github.com/AlyssaYelle/StochasticProcesses/blob/master/branching_process.R), we can [simulate hundreds of branching processes](https://github.com/AlyssaYelle/StochasticProcesses/blob/master/extinction_prob.py) and thus approximate the probability of extinction.
 
@@ -137,4 +137,3 @@ The plot below was [generated](https://github.com/AlyssaYelle/StochasticProcesse
 ## Ref
 - My own personal notes from [Stephen Walker's](https://stat.utexas.edu/component/cobalt/item/15-mathematics/385-walker-stephen-g?Itemid=1176) Stochastic Processes class at UT Austin
 - [Gordan Zitkovic's](https://www.ma.utexas.edu/users/gordanz/) lecture notes on [random walks](https://www.ma.utexas.edu/users/gordanz/notes/lecture4.pdf) and [branching processes](https://www.ma.utexas.edu/users/gordanz/notes/lecture7.pdf)
-

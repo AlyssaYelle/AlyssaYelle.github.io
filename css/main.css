@@ -1,7 +1,82 @@
-
-
+/***************/
+/* body layout */
+/***************/
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
 
 body {
+  width: 100%;
+  height: 100%;
+  background-color: #F0BAC7;
+  font-family: 'Raleway', sans-serif;
+  color: white;
+}
+
+
+nav {
+  position: fixed;
+  width: 17vw;
+  height: 100vh;
+  background-color: #F0BAC7;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  float: left;
+}
+
+nav a {
+  color: white; /* Black text color */
+  display: flex; /* Make the links appear below each other */
+  padding: 12px; /* Add some padding */
+  text-decoration: none; /* Remove underline from links */
+  font-size: 2.5vw;
+}
+
+nav a:hover {
+  color: maroon;
+}
+
+nav a.active {
+  background-color: hotpink; /* Add a green color to the "active/current" link */
+  color: white;
+}
+
+section {
+	text-align: center;
+    height: 100vh;
+  float: right;
+  width: 83%;
+}
+
+.alyzz {
+  	height:100vh;
+  	background-image: url("../assets/portfolio4.jpg");
+ 	  background-size:cover;
+  	background-position:center bottom;
+  	display: flex;
+	 flex-direction: column;
+	 justify-content: space-around;
+
+}
+
+
+.desc {
+
+	padding: 5% 3%;
+}
+
+h1 {
+	font-size: 5rem;
+	text-shadow: maroon 0px 0px 1px;
+/*	padding-top: 5%;*/
+}
+
+h2 {
+	font-size: 3rem;
+	text-shadow: maroon 0px 0px 1px;
+}
+
+
+/* body {
     margin: 60px auto;
     width: 70%;
 }
@@ -36,16 +111,11 @@ footer {
     font-size: .8em;
 }
 
-ul.posts { 
-    margin: 20px auto 40px; 
+ul.posts {
+    margin: 20px auto 40px;
     font-size: 1.5em;
 }
 
 ul.posts li {
     list-style: none;
-}
-
-
-
-
-
+} */
