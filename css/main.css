@@ -42,7 +42,7 @@ nav a.active {
 
 section {
 	text-align: center;
-    height: 100vh;
+  height: 100vh;
   float: right;
   width: 83%;
 }
@@ -66,9 +66,12 @@ section {
 
 .blog {
   text-align: left;
-  height: 100vh;
-  float: right;
-  width: 83%;
+}
+
+.posts {
+  text-align: left;
+  color: black;
+  background-color: white;
 }
 
 h1 {
@@ -83,11 +86,19 @@ h2 {
 }
 
 
-li a {
+.blog a {
     text-decoration: none;
     color: maroon;
 }
-li a:hover {
+.blog a:hover {
+    text-decoration: underline;
+}
+
+.posts a {
+    text-decoration: none;
+    color: maroon;
+}
+.posts a:hover {
     text-decoration: underline;
 }
 
