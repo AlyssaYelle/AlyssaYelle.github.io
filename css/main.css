@@ -82,17 +82,17 @@ section {
 
 article {
   text-align: left;
-  padding-left: 5%;
-  padding-right: 10%;
+  margin-left: 5%;
+  margin-right: 10%;
   color: black;
   display: block;
 }
 
-article h1 {
+.posts h1 {
   font-size: 2rem;
 }
 
-article h2 {
+.posts h2 {
   font-size: 1.5rem;
   text-shadow: none;
 }
