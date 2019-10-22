@@ -76,7 +76,13 @@ section {
 }
 
 .blog {
+  height:100vh;
+  background-image: url("assets/portfolio4.jpg");
+  background-size:cover;
+  background-position:center bottom;
   text-align: left;
+  padding-left: 5%;
+  padding-right: 10%;
 }
 
 
