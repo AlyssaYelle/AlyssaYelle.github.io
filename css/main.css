@@ -77,12 +77,16 @@ section {
 
 .blog {
   height:100vh;
-  background-image: url("assets/portfolio2.jpg");
+  background-image: url("assets/portfolio3.jpg");
   background-size:cover;
   background-position:center right;
+
+}
+
+.list {
   text-align: left;
-  padding-left: 25%;
-  padding-right: 10%;
+  margin-left: 5%;
+  margin-right: 20%;
 }
 
 
