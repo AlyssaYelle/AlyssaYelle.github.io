@@ -71,7 +71,12 @@ section {
 .posts {
   text-align: left;
   color: black;
-  background-color: white;
+  display: block;
+  margin-left: 5%;
+}
+
+.posts h2 {
+  font-size: 2rem;
 }
 
 h1 {
