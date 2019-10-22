@@ -116,6 +116,11 @@ article {
     text-decoration: underline;
 }
 
+.blog h2 {
+  color: maroon;
+  text-shadow: none;
+}
+
 .posts a {
     text-decoration: none;
     color: maroon;
