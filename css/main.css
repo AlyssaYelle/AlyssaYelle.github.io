@@ -49,7 +49,7 @@ section {
 
 .alyzz {
   	height:100vh;
-  	background-image: url("../portfolio4.jpg");
+  	background-image: url("assets/portfolio4.jpg");
  	  background-size:cover;
   	background-position:center bottom;
   	display: flex;
