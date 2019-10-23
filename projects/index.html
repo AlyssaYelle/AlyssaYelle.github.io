@@ -1,0 +1,15 @@
+---
+layout: default
+title: Projects
+---
+<section class='projects'>
+	<div class='list'>
+		<h2>{{ page.title }}</h2>
+		<ul class="projs">
+
+	  	{% for proj in site.projs %}
+	    	<li><a href="{{ proj.url }}" title="{{ proj.title }}">{{ proj.title }}</a></li>
+	  	{% endfor %}
+		</ul>
+	</div>
+</section>

@@ -107,6 +107,10 @@ article {
   text-shadow: none;
 }
 
+.post {
+  padding-bottom: 40px;
+}
+
 
 .blog a {
     text-decoration: none;
