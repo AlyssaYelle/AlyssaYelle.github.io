@@ -1,6 +1,4 @@
-/***************/
-/* body layout */
-/***************/
+
 @import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
 
 body {
@@ -11,17 +9,14 @@ body {
   color: white;
 }
 
-h1 {
-  font-size: 5rem;
-  text-shadow: maroon 0px 0px 1px;
-/*  padding-top: 5%;*/
+section {
+  text-align: center;
+  height: 100vh;
+  float: right;
+  width: 83%;
 }
 
-h2 {
-  font-size: 3rem;
-  text-shadow: maroon 0px 0px 1px;
-}
-
+/*vertical nav bar*/
 
 nav {
   position: fixed;
@@ -35,10 +30,10 @@ nav {
 }
 
 nav a {
-  color: white; /* Black text color */
-  display: flex; /* Make the links appear below each other */
-  padding: 12px; /* Add some padding */
-  text-decoration: none; /* Remove underline from links */
+  color: white; 
+  display: flex; 
+  padding: 12px; 
+  text-decoration: none; 
   font-size: 2.5vw;
 }
 
@@ -51,12 +46,19 @@ nav a.active {
   color: white;
 }
 
-section {
-	text-align: center;
-  height: 100vh;
-  float: right;
-  width: 83%;
+/*home page styling*/
+
+#alyssayelle {
+  font-size: 5rem;
+  text-shadow: maroon 0px 0px 1px;
+/*  padding-top: 5%;*/
 }
+
+#home-heading {
+  font-size: 3rem;
+  text-shadow: maroon 0px 0px 1px;
+}
+
 
 .alyzz {
   	height:100vh;
@@ -75,7 +77,10 @@ section {
 	padding: 5% 3%;
 }
 
-.blog {
+
+/*blog post and project links page styling*/
+
+.blog-project {
   height:100vh;
   background-image: url("assets/portfolio5.png");
   background-size:cover;
@@ -98,41 +103,23 @@ article {
   display: block;
 }
 
-.posts h1 {
+h1 {
   font-size: 2rem;
 }
 
-.posts h2 {
+h2 {
   font-size: 1.5rem;
   text-shadow: none;
 }
 
-.post {
-  padding-bottom: 40px;
-}
 
-
-.blog a {
+.blog-project a {
     text-decoration: none;
     color: maroon;
 }
-.blog a:hover {
+.blog-project a:hover {
     text-decoration: underline;
 }
-
-.blog h2 {
-  color: maroon;
-  text-shadow: none;
-}
-
-.posts a {
-    text-decoration: none;
-    color: maroon;
-}
-.posts a:hover {
-    text-decoration: underline;
-}
-
 
 ul.posts {
     margin: 20px auto 40px;
@@ -142,3 +129,22 @@ ul.posts {
 ul.posts li {
     list-style: none;
 } 
+
+
+/*post styling*/
+
+.blog h2 {
+  color: maroon;
+  text-shadow: none;
+}
+
+.blog a {
+    text-decoration: none;
+    color: maroon;
+}
+.blog a:hover {
+    text-decoration: underline;
+}
+
+
+
