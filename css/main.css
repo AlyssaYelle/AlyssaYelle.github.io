@@ -81,7 +81,6 @@ nav a.active {
 /*blog post and project links page styling*/
 
 .blog-project {
-  height:100vh;
   background-image: url("assets/portfolio5.png");
   background-size:cover;
   background-position:center bottom;
@@ -109,7 +108,6 @@ h1 {
 
 h2 {
   font-size: 1.5rem;
-  text-shadow: none;
 }
 
 
