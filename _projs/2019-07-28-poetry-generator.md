@@ -4,7 +4,7 @@ title: "Simple Poetry Generator"
 date: 2019-07-28
 ---
 
-This post is under construction!
+[Github](https://github.com/AlyssaYelle/webdev/tree/master/mini-projects/poetry_generator_project)
 
 <!-- TODO -->
 
