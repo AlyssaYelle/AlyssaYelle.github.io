@@ -44,6 +44,7 @@ nav a {
 
 nav a:hover {
   color: maroon;
+  text-decoration: underline;
 }
 
 nav a.active {
@@ -53,6 +54,14 @@ nav a.active {
 
 h1, h2 {
   font-family: 'Josefin Slab', serif;
+}
+
+h1 {
+  font-size: 5vw;
+}
+
+h2 {
+  font-size: 3vw;
 }
 
 /*home page styling*/
@@ -109,14 +118,6 @@ article {
   margin-right: 10%;
   color: black;
   display: block;
-}
-
-h1 {
-  font-size: 5vw;
-}
-
-h2 {
-  font-size: 3vw;
 }
 
 
