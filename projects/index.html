@@ -2,7 +2,7 @@
 layout: default
 title: Projects
 ---
-<section class='blog-project'>
+<!-- <section class='blog-project'>
 	<div class='list'>
 		<h2>{{ page.title }}</h2>
 		<p>A selection of some of my projects</p>
@@ -11,6 +11,20 @@ title: Projects
 	  	{% for proj in site.projs %}
 	  		<p>proj here</p>
 	    	<li><a href="{{ proj.url }}" title="{{ proj.title }}">{{ proj.title }}</a></li>
+	  	{% endfor %}
+		</ul>
+	</div>
+</section> -->
+
+
+<section class='blog-project'>
+	<div class='list'>
+		<h2>{{ page.title }}</h2>
+		<p>test</p>
+		<ul class="posts">
+
+	  	{% for post in site.posts %}
+	    	<li><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
 	  	{% endfor %}
 		</ul>
 	</div>
