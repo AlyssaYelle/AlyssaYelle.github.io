@@ -5,11 +5,11 @@ title: Projects
 <section class='blog-project'>
 	<div class='list'>
 		<h2>{{ page.title }}</h2>
-		<p>A selection of some of my projects</p>
+		<p>Here's a selection of some of my projects</p>
 		<ul class="projs">
 
 	  	{% for proj in site.projs %}
-	  		<p>proj here</p>
+
 	    	<li><a href="{{ proj.url }}" title="{{ proj.title }}">{{ proj.title }}</a></li>
 	  	{% endfor %}
 		</ul>

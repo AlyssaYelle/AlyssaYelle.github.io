@@ -3,4 +3,6 @@ markdown: kramdown
 baseurl: '/blog'
 url: 'http://alyssayelle.github.io'
 future: true
-collections-dir: my_collections
+collections:
+  projs:
+    output: true
