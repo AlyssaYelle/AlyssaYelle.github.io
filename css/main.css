@@ -20,6 +20,14 @@ section {
   width: 83%;
 }
 
+a {
+    text-decoration: none;
+    color: maroon;
+}
+a:hover {
+    text-decoration: underline;
+}
+
 /*vertical nav bar*/
 
 nav {
@@ -47,10 +55,6 @@ nav a:hover {
   text-decoration: underline;
 }
 
-nav a.active {
-  background-color: hotpink; /* Add a green color to the "active/current" link */
-  color: white;
-}
 
 h1, h2, h3, h4 {
   font-family: 'Josefin Slab', serif;
@@ -128,15 +132,6 @@ article {
   display: block;
 }
 
-
-.blog a {
-    text-decoration: none;
-    color: maroon;
-}
-.blog a:hover {
-    text-decoration: underline;
-}
-
 ul.posts {
     margin: 20px auto 40px;
     font-size: 1.5em;
@@ -152,14 +147,6 @@ ul.posts li {
 .blog h2 {
   color: maroon;
   text-shadow: none;
-}
-
-.blog a {
-    text-decoration: none;
-    color: maroon;
-}
-.blog a:hover {
-    text-decoration: underline;
 }
 
 /* project page styling */
