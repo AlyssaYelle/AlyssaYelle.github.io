@@ -164,13 +164,19 @@ ul.posts li {
 
 /* project page styling */
 .project {
+  width: 60%;
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
   align-items: baseline;
 }
 
-.project img {
-  width: 20%;
+.proj-icon {
+  width: 25%;
+}
+
+.project-icon img {
+  width: 90%;
   height: auto;
+  margin: 0 auto;
 }
