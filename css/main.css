@@ -166,6 +166,8 @@ ul.posts li {
 .project {
   display: flex;
   flex-direction: row;
+  justify-content: flex-start;
+  align-items: baseline;
 }
 
 .project img {
