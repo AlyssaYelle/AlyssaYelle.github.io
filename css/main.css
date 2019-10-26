@@ -61,31 +61,27 @@ h1, h2, h3, h4 {
 }
 
 h1 {
-  font-size: 6vw;
+  font-size: 5vw;
 }
 
 h2 {
-  font-size: 4.5vw;
-}
-
-h3 {
   font-size: 3vw;
 }
 
-h4 {
+h3 {
   font-size: 2vw;
 }
+
 
 /*home page styling*/
 
 #alyssayelle {
-  font-size: 5vw;
+  font-size: 6vw;
   text-shadow: maroon 0px 0px 1px;
-/*  padding-top: 5%;*/
 }
 
 .home-heading {
-  font-size: 3vw;
+  font-size: 4.5vw;
   text-shadow: maroon 0px 0px 1px;
 }
 
