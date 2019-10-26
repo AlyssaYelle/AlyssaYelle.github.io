@@ -34,10 +34,10 @@ nav {
 }
 
 nav a {
-  color: white; 
-  display: flex; 
-  padding: 12px; 
-  text-decoration: none; 
+  color: white;
+  display: flex;
+  padding: 12px;
+  text-decoration: none;
   font-size: 2.5vw;
   font-family: 'Josefin Slab', serif;
 }
@@ -52,16 +52,24 @@ nav a.active {
   color: white;
 }
 
-h1, h2 {
+h1, h2, h3, h4 {
   font-family: 'Josefin Slab', serif;
 }
 
 h1 {
-  font-size: 5vw;
+  font-size: 6vw;
 }
 
 h2 {
+  font-size: 4.5vw;
+}
+
+h3 {
   font-size: 3vw;
+}
+
+h4 {
+  font-size: 2vw;
 }
 
 /*home page styling*/
@@ -98,7 +106,7 @@ h2 {
 
 /*blog post and project links page styling*/
 
-.blog-project {
+.blog {
   background-image: url("assets/portfolio5.png");
   background-size:cover;
   background-position:center bottom;
@@ -121,11 +129,11 @@ article {
 }
 
 
-.blog-project a {
+.blog a {
     text-decoration: none;
     color: maroon;
 }
-.blog-project a:hover {
+.blog a:hover {
     text-decoration: underline;
 }
 
@@ -136,7 +144,7 @@ ul.posts {
 
 ul.posts li {
     list-style: none;
-} 
+}
 
 
 /*post styling*/
@@ -154,8 +162,13 @@ ul.posts li {
     text-decoration: underline;
 }
 
+/* project page styling */
+.project {
+  display: flex;
+  flex-direction: row;
+}
 
-
-
-
-
+.project img {
+  width: 20%;
+  height: auto;
+}
