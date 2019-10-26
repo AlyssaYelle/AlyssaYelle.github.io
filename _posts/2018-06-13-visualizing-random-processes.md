@@ -4,7 +4,7 @@ title: "A Tutorial on Random Processes"
 date: 2018-06-13
 ---
 
-## Introduction
+### Introduction
 
 This is a quick tutorial for visualizing and developing a basic understanding of simple random walks, branching processes, and regime switching. As this is geared toward individuals who may not have taken a probability course yet, we're not going to get deep into the math here (Although if you are interested in the maths, [Gordan Zitkovic's Stochastic Processes notes](https://www.ma.utexas.edu/users/gordanz/notes/) can explain all of that better than I ever could). Rather, we're going to simulate these processes to see what is actually occurring over time.
 
@@ -13,7 +13,7 @@ Before we start, you might ask why we even care about random processes. Given th
 In this tutorial we aren't going to apply these concepts to any problems -- that will come later. Rather, we're just going to visualize them in order to build up our intuition about what is happening behind all the maths.
 
 
-## Simple Random Walks
+### Simple Random Walks
 
 A simple random walk with parameter <a href="https://www.codecogs.com/eqnedit.php?latex=p&space;\in&space;(0,&space;1)" target="_blank"><img src="https://latex.codecogs.com/gif.latex?p&space;\in&space;(0,&space;1)" title="p \in (0, 1)" /></a> is a sequence <a href="https://www.codecogs.com/eqnedit.php?latex=\{X_n\}_{n&space;\in&space;\mathbb{N}_0}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\{X_n\}_{n&space;\in&space;\mathbb{N}_0}" title="\{X_n\}_{n \in \mathbb{N}_0}" /></a> of random variables with the following properties:
 1. <a href="https://www.codecogs.com/eqnedit.php?latex=X_0&space;=&space;0" target="_blank"><img src="https://latex.codecogs.com/gif.latex?X_0&space;=&space;0" title="X_0 = 0" /></a>
@@ -61,13 +61,13 @@ What does this actually look like, though? Let's look at plots for *p* = 0.4, 0.
 Now, it's important to remember that while these processes are beholden to some probability distribution, they are *random*. For any random walk with parameter *p* I could run the simulation 10 times and produce 10 different plots.
 
 
-## Branching Processes
+### Branching Processes
 
 Every once in a while a mathematical concept will arise from an individual with problematic views, and the branching process is one of them. Sir Francis Galton, also known as the father of eugenics, questioned how many male children each generation of a family would have to produce on average in order for the family line to not become extinct. After a collaboration with Henry William Watson, the branching process model was born.
 
 Thankfully, branching processes have applications outside of eugenics. For example, we can use them to model whether a population of cancerous cells will become extinct before it grows large enough to overwhelm the surrounding tissue.
 
-### Modeling a Single Branching Process
+#### Modeling a Single Branching Process
 
 To model a branching process we want to start with a single individual, <a href="https://www.codecogs.com/eqnedit.php?latex=Z_0" target="_blank"><img src="https://latex.codecogs.com/gif.latex?Z_0" title="Z_0" /></a>, at time n = 0, and assume that they will produce a random number of children before dying off. The number of children they can produce may only be a nonnegative integer, so we will model this random variable using a Poisson distribution with parameter lambda, where lambda is the expected value.
 
@@ -110,7 +110,7 @@ I like to run this simulation using lambda = 2 because over multiple trials we c
 ![Population explodes]({{site.url}}{{site.baseurl}}/assets/stochastic/branchpopexplode.png)
 
 
-### Approximating the Probability of Extinction
+#### Approximating the Probability of Extinction
 
 Since branching processes are random, running a single simulation is rather worthless if we're seeking some kind of concrete information. For example, one question we could ask is *what is the probability that population reproducing itself from a Poisson(2) distribution will become extinct?*
 
@@ -120,7 +120,7 @@ Well, if we can [simulate one branching process](https://github.com/AlyssaYelle/
 
 After simulating a Poisson(2) branching process 300 times, I found that the extinction probability is around 0.2, which is the same solution we would find using the generating function <a href="https://www.codecogs.com/eqnedit.php?latex=x&space;=&space;e^{(\lambda(x-1))}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?x&space;=&space;e^{(\lambda(x-1))}" title="x = e^{(\lambda(x-1))}" /></a>.
 
-## Regime Switching
+### Regime Switching
 
 What if we want to consider a system that has only two states? Some examples of such a system would be high/low volatility in a financial market, english/non-english text in a work of literature, or my personal favorite example, the presence of water or no water underneath an ice sheet.
 
@@ -134,6 +134,6 @@ The plot below was [generated](https://github.com/AlyssaYelle/StochasticProcesse
 ![Regime switching]({{site.url}}{{site.baseurl}}/assets/stochastic/regime_switching.png)
 
 
-## Ref
+### Ref
 - My own personal notes from [Stephen Walker's](https://stat.utexas.edu/component/cobalt/item/15-mathematics/385-walker-stephen-g?Itemid=1176) Stochastic Processes class at UT Austin
 - [Gordan Zitkovic's](https://www.ma.utexas.edu/users/gordanz/) lecture notes on [random walks](https://www.ma.utexas.edu/users/gordanz/notes/lecture4.pdf) and [branching processes](https://www.ma.utexas.edu/users/gordanz/notes/lecture7.pdf)

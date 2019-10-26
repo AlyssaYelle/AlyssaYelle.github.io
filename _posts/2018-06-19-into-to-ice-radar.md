@@ -4,7 +4,7 @@ title: "The Ice Radar Chronicles Part 1: Intro to Ice Radar"
 date: 2018-06-19
 ---
 
-The [project](https://github.com/AlyssaYelle/auto-piking#automatically-mapping-the-antarctic-ice-sheet) that's most dear to my heart is the problem of auto-picking, or automating the process of interpreting ice-penetrating radar data. I spent years during my time in Austin working as a lab tech for a group of geophysicists who had an enormous amount of this radar data and needed someone to "pick" it. 
+The [project](https://github.com/AlyssaYelle/auto-piking#automatically-mapping-the-antarctic-ice-sheet) that's most dear to my heart is the problem of auto-picking, or automating the process of interpreting ice-penetrating radar data. I spent years during my time in Austin working as a lab tech for a group of geophysicists who had an enormous amount of this radar data and needed someone to "pick" it.
 
 This human-powered picking is simple enough, really. You load up a radar image, draw the upper and lower boundaries of your feature of interest (the surface or bottom of the ice), and then run an algorithm that finds the strongest signal within those boundaries.
 
@@ -24,7 +24,7 @@ Anyway, back to the problem of auto-picking!
 
 I said earlier that the picking process is simple, which is often true. But let's get one thing straight: it is *time consuming*. Geophysicists have been getting a whole lot better at the whole data collection process, and will only get more efficient once they start deploying drones. And once a radargram is picked, it will be reprocessed and then picked again. Picking isn't an unpleasant task (who doesn't like being almost certainly the first/only person in the world to see neat features like volcanic ash plumes and subglacial lakes?!), but wouldn't it be nice if geophysicists could collect their radar data and not have to wait months to actually do cool science with said data?
 
-In addition to the time consuming nature of the picking process, sometimes radar data can be extremely messy, which can lead to... interesting interpretations when picked by people of varying levels of comfort with radar image analysis. Often the radar will reflect off a surface that is not the bottom of the ice (like water, buildings, crevasses, ice shelf edges) and it can be incredibly difficult to determine what's a reflection and what's the bed. I'm quite possibly The Leading Expert on analyzing radar images but back when I was a beginner I definitely made the mistake of determining that a reflection of the ocean's surface was actually bedrock. 
+In addition to the time consuming nature of the picking process, sometimes radar data can be extremely messy, which can lead to... interesting interpretations when picked by people of varying levels of comfort with radar image analysis. Often the radar will reflect off a surface that is not the bottom of the ice (like water, buildings, crevasses, ice shelf edges) and it can be incredibly difficult to determine what's a reflection and what's the bed. I'm quite possibly The Leading Expert on analyzing radar images but back when I was a beginner I definitely made the mistake of determining that a reflection of the ocean's surface was actually bedrock.
 
 ![Some messier radargrams]({{site.url}}{{site.baseurl}}/assets/ice_radar/messy_rgs.png)
 
@@ -37,17 +37,9 @@ Detecting subglacial water is especially important because it allows geophysicis
 Now that you know a little bit about ice radar and what we can learn from it, I hope you'll share my enthusiasm for auto-picking! This project is still very much a work in progress, but I've learned a lot from it so far and I'm looking forward to sharing that knowledge with you in the future!
 
 
-## Ref
+### Ref
 
 1. [A Brief History of Radio-Echo Sounding of Ice](https://earthzine.org/2008/09/26/a-brief-history-of-radio-echo-sounding-of-ice/)
 2. [The distribution of basal water between Antarctic subglacial lakes from radar sounding](http://rsta.royalsocietypublishing.org/content/374/2059/20140297)
 3. [Radar Sounder Data Analysis](https://pangea.stanford.edu/radio-glaciology/radar-sounder-data-analysis)
 4. [Subglacial Antarctic Swamp Discovered Beneath Florida-sized Glacier](https://www.scienceworldreport.com/articles/8053/20130710/subglacial-antarctic-swamp-discovered-beneath-florida-sized-glacier.htm)
-
-
-
-
-
-
-
-
