@@ -155,7 +155,7 @@ ul.posts li {
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
-  align-items: baseline;
+  align-items: center;
 }
 
 .proj-icon {
