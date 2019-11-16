@@ -109,12 +109,18 @@ h4 {
 
 /*blog post and project links page styling*/
 
-/*.blog {
-  background-image: url("assets/portfolio5.png");
+.blog {
+/*  background-image: url("assets/portfolio5.png");
   background-size:cover;
-  background-position:center bottom;
+  background-position:center bottom;*/
+  position: relative;
+  height: 100vh;
+}
 
-}*/
+#blog-bottom {
+  position: absolute;
+  bottom: 0;
+}
 
 .list {
   text-align: left;
