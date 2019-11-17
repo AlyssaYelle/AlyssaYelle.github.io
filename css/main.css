@@ -111,9 +111,9 @@ h4 {
 
 .blog {
   background-image: url("assets/blog-bottom-border.png");
-  background-size:contain;
+  background-size:100%;
   background-repeat: no-repeat;
-  background-position:bottom bottom;
+  background-position:center bottom;
 }
 
 
