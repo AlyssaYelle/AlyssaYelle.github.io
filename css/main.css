@@ -91,9 +91,9 @@ h4 {
 
 .alyzz {
   	height:100vh;
-/*  	background-image: url("assets/portfolio4.jpg");
+  	background-image: url("assets/bg_wild.jpg");
  	  background-size:cover;
-  	background-position:center bottom;*/
+  	background-position:center center;
   	display: flex;
 	 flex-direction: column;
 	 justify-content: space-around;
