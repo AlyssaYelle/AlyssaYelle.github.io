@@ -90,10 +90,10 @@ h4 {
 
 
 .alyzz {
-  	height:100vh;
+/*  	height:100vh;
   	background-image: url("assets/portfolio4.jpg");
  	  background-size:cover;
-  	background-position:center bottom;
+  	background-position:center bottom;*/
   	display: flex;
 	 flex-direction: column;
 	 justify-content: space-around;
@@ -109,12 +109,12 @@ h4 {
 
 /*blog post and project links page styling*/
 
-.blog {
+/*.blog {
   background-image: url("assets/blog-bottom-border.png");
   background-size:100%;
   background-repeat: no-repeat;
   background-position:center bottom;
-}
+}*/
 
 
 .list {
