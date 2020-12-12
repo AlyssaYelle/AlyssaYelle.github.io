@@ -91,14 +91,14 @@ h4 {
 
 .alyzz {
   	height:100vh;
-  	background-image: url("assets/bg_wild.jpg");
+/*  	background-image: url("assets/bg_wild.jpg");
  	  background-size:cover;
     background-repeat: no-repeat;
-  	background-position:0% 50%;
+  	background-position:0% 50%;*/
   	display: flex;
 	 flex-direction: column;
 	 justify-content: space-around;
-
+   border-left: 1px solid maroon;
 }
 
 
